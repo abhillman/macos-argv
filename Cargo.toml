@@ -1,0 +1,13 @@
+[package]
+name = "toy"
+version = "0.1.0"
+edition = "2021"
+description = "toy"
+
+[dependencies]
+cargo-bundle = "0.6.0"
+
+[package.metadata.bundle]
+name = "Toy"
+identifier = "com.example.toy"
+
